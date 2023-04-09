@@ -17,9 +17,9 @@ Not\* Bu dökümanın en sonunda da, sunumda seni değerlendireceğimiz başlık
 
 ### Görev 1: Proje Kurulumu
 
-- [ ] `npx create-react-app web-sayfam` komutuyla boş bir çalışma başlatabilirsin.
-- [ ] Oluşturulan `web-sayfam` klasörüne gir.
-- [ ] `npm` i kullanarak, gerekli gördüğün kütüphaneleri projene ekleyebilirsin. _Örneğin:_
+- [x] `npx create-react-app web-sayfam` komutuyla boş bir çalışma başlatabilirsin.
+- [x] Oluşturulan `web-sayfam` klasörüne gir.
+- [x] `npm` i kullanarak, gerekli gördüğün kütüphaneleri projene ekleyebilirsin. _Örneğin:_
 
 - `axios`
 - `yup`
