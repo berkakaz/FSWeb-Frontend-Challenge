@@ -78,7 +78,7 @@ export default function Profile() {
                     </p>
                     <p
                       className={
-                        "text-[1.8rem] font-['Inter'] w-[55vw] xl:w-[15vw]  xl:pl-[1.2rem] font-[400] leading-[2.178rem] tracking-[0.01rem]"
+                        "text-[1.8rem] font-['Inter'] w-[55vw] xl:w-[15vw]  xl:pl-[3.3rem] font-[400] leading-[2.178rem] tracking-[0.01rem]"
                       }
                     >
                       Piri Reis University, Marine Engineering Programme, 2021

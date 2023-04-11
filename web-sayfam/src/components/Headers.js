@@ -1,9 +1,9 @@
-export default function Hero() {
+export default function Header() {
     return (
       <div
       
         className={
-          "flex-col-reverse px-[2rem]   flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
+          "flex flex-col-reverse px-[2rem] xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
         }
       >
         <span>
@@ -98,7 +98,7 @@ export default function Hero() {
         </div>
         <div
           className={
-            "flex xl:h-[39%] xl:w-[35vw]  pt-[5.6rem] xl:justify-end  justify-center"
+            "flex xl:h-[39%] xl:w-[35vw]  pt-[5.6rem] xl:justify-end pr-[17rem]  justify-center"
           }
         >
           {/* <div

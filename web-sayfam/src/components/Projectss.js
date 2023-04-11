@@ -19,7 +19,7 @@ export default function Projects() {
         >
           <div
             className={
-              "w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem] bg-[#DDEEFE]"
+              " w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem] bg-[#DDEEFE]"
             }
           >
             <p
@@ -78,7 +78,7 @@ export default function Projects() {
             >
               <a
                 target="_blank"
-                href="https://github.com/Mrtgk93/mg-diziler"
+                href="https://github.com/berkakaz/fsweb-s7-challenge-pizza"
                 className={
                   "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
                 }
@@ -87,7 +87,7 @@ export default function Projects() {
               </a>
               <a
                 target="_blank"
-                href="https://mg-diziler.vercel.app/"
+                href="https://github.com/berkakaz/fsweb-s7-challenge-pizza"
                 className={
                   "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
                 }
@@ -95,7 +95,7 @@ export default function Projects() {
                 Go to app 👈
               </a>
             </div>
-            <div className={" pt-[3.5rem] xl:pt-[0rem]"}>
+            <div className={"pb-[0rem] pt-[3.5rem] xl:pt-[0rem]"}>
               <img src={"./img/pc-img.png"} />
             </div>
           </div>{" "}
@@ -208,7 +208,10 @@ export default function Projects() {
             </p>
           </div>
           <div>
-            
+          <a 
+              target="_blank"
+              href="https://github.com/berkakaz"
+            >
             <p
               className={
                 "xl:text-[2.4rem] text-[#1769FF] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
@@ -217,6 +220,7 @@ export default function Projects() {
             >
               Github
             </p>
+            </a>
             <p
             
               className={
@@ -225,6 +229,10 @@ export default function Projects() {
             >
               Personal Blog
             </p>
+            <a 
+              target="_blank"
+              href="https://www.linkedin.com/in/berkakaz/"
+            >
             <p
               className={
                 "xl:text-[2.4rem] text-[#0077B5] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
@@ -232,6 +240,11 @@ export default function Projects() {
             >
               LinkedIn
             </p>
+            </a>
+            <a 
+              target="_blank"
+              href="mailto:berk.akaz@gmail.com"
+            >
             <p
               className={
                 "xl:text-[2.4rem] text-[#AF0C48] text-left xl:leading-[2.9rem] font-['Inter'] font-[500]"
@@ -239,6 +252,7 @@ export default function Projects() {
             >
               Email
             </p>
+            </a>
           </div>
         </div>
       </div>

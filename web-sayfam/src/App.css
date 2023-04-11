@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   max-width: 1440px;
-  height: 738px;
+  max-height: 738px;
   display:inline;
   
 }
@@ -43,12 +43,11 @@
 }
 
 .pink {
-  position: absolute;
+  position:absolute;
   width: 217px;
   height: 59px;
   left: 1780px;
   top: 536px;
-
   
   
   background: #EA2678;
@@ -62,6 +61,7 @@
   left: 421px;
   top: -45px;
   
+  
   background: #D9D9D9;
   border-radius: 50%;
 }
@@ -69,11 +69,13 @@
 .ellipse2 {
   box-sizing: border-box ;
 
-position: absolute;
+position:absolute;
 width: 121px;
 height: 121px;
 left: 1038px;
 top: 678px;
+margin-left: 30rem;
+margin-top: -65px;
 
 border: 21px solid #D9D9D9;
 border-radius: 50%;
@@ -81,13 +83,14 @@ border-radius: 50%;
 
 .rectangle22 {
   position: absolute;
-width: 181px;
-height: 49px;
-left: -70px;
-top: 1133px;
-
-background: #525252;
-border-radius: 29.5px;
+  width: 181px;
+  height: 49px;
+  left: -70px;
+  top: 1133px;
+  margin-top: -5rem;
+  
+  background: #525252;
+  border-radius: 29.5px;
 }
 
 .ellipse12 {
@@ -98,8 +101,20 @@ border-radius: 29.5px;
   height: 121px;
   left: 1362px;
   top: 1198px;
+  margin-left: 46rem;
+margin-top: -65px;
+
   
   border: 21px solid #EA2678; 
   border-radius: 50%;
 }
 
+.laptop {
+  position: absolute;
+width: 500px;
+height: 287px;
+left: 193px;
+top: 2361px;
+
+background: img(pc-img.pmg);
+}
