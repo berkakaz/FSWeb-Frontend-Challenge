@@ -6,6 +6,7 @@ export default function Header() {
           "flex flex-col-reverse px-[2rem] xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
         }
       >
+     
         <span>
               <div
                 className="pink"

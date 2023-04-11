@@ -109,12 +109,11 @@ margin-top: -65px;
   border-radius: 50%;
 }
 
-.laptop {
-  position: absolute;
-width: 500px;
-height: 287px;
-left: 193px;
-top: 2361px;
-
-background: img(pc-img.pmg);
+body {
+  overflow-x: hidden;
 }
+
+
+
+
+

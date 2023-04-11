@@ -180,7 +180,7 @@ export default function Projects() {
                 Go to app 👈
               </a>
             </div>
-            <div className={" pt-[3.5rem] xl:pt-[0rem]"}>
+            <div className="laptop">
               <img src={"./img/pc-img.png"} />
             </div>
           </div>
