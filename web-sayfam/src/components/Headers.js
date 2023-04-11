@@ -1,15 +1,27 @@
 export default function Hero() {
     return (
       <div
+      
         className={
           "flex-col-reverse px-[2rem]   flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
         }
       >
+        <span>
+              <div
+                className="pink"
+                
+              ></div>
+            </span>
+        
+        
         <div
           className={
             "text-left  pl-[1.6rem] xl:pt-[0rem] pt-[2rem] w-[82vw] xl:w-[50vw]"
           }
         >
+        
+            
+       
           <p
             className={
               " font-['Inter'] tracking-widest text-[2rem] leading-[4rem] xl:text-[3rem] xl:mb-[2rem] "
@@ -17,6 +29,13 @@ export default function Hero() {
           >
             Hi! 👋
           </p>
+         
+          <span>
+              <div
+                className="ellipse"
+                
+              ></div>
+            </span>
   
           <p
             className={
@@ -46,6 +65,7 @@ export default function Hero() {
                   link={""}
                 />
               </a>
+              
               <a target="_blank" href="https://github.com/berkakaz">
                 <img
                   className={"xl:mt-[5.6rem] "}
@@ -68,9 +88,11 @@ export default function Hero() {
               Project .
               <br />
               Invite me to join your team 👉 {" "}
-              <span className={" text-[#AF0C48] underline underline-offset-4"}>
+              <a className={" text-[#AF0C48] underline underline-offset-4"}
+              target="_blank" href="mailto:berk.akaz@gmail.com"
+              >
                 berk.akaz@gmail.com
-              </span>
+              </a>
             </p>
           </p>
         </div>
@@ -89,7 +111,7 @@ export default function Hero() {
             className={
               " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
             }
-            src="./img/IMG_3355.jpg"
+            src="./img/IMG_3355.jpeg.jpg"
             alt="Image description"
           />
         </div>

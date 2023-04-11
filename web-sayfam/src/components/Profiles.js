@@ -5,6 +5,7 @@ export default function Profile() {
           "bg-[#F4F4F4] py-[2rem] xl:py-[7.2rem] xl:pl-[19.3rem] px-[2rem] xl:pr-[21.6rem]"
         }
       >
+       
         <div className={"flex  flex-col"}>
           <p
             className={
@@ -13,6 +14,12 @@ export default function Profile() {
           >
             Profile
           </p>
+          <span>
+              <div
+                className="ellipse12"
+                
+              ></div>
+            </span>
           <div className={"flex xl:pt-[3.6rem]  xl:flex-row  flex-col "}>
             <div
               className={
