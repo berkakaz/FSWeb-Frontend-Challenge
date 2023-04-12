@@ -114,6 +114,10 @@ body {
 }
 
 
-
+.toast-message {
+    background: darkblue;
+    color: #fff;
+    font-size: 20px;
+}
 
 
