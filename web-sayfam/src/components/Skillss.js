@@ -6,6 +6,7 @@ export default function Skills() {
           className={
             " flex-wrap  ml-[20rem] xl:pb-[13rem] pt-[2rem] xl:pt-[3rem] xl:pr-[0rem] xl:pl-[25.9rem]"
           }
+          id="header"
         >
                <span>
               <div

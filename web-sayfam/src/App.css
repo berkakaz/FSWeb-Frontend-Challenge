@@ -114,6 +114,7 @@ body {
 }
 
 
+
 .toast-message {
     color: #fff;
     font-size: 20px;
@@ -126,5 +127,16 @@ height: 380px;
 left: -25%;
 top: -100px;
 
-
 }
+
+#light {
+  background-color: #f5f5f5;
+}
+
+#dark {
+  background-color: #2A262B;
+}
+
+
+
+
