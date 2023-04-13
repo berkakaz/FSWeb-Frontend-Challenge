@@ -1,123 +1,37 @@
+import React, { useState } from "react";
+import { SkillsData } from "../Data/SkillsData";
 export default function Skills() {
-    return (
-      <div className={" xl:w-[144rem] px-[.5rem] xl:px[0rem]  xl:h-[49rem]"}>
-   
-        <div
-          className={
-            " flex-wrap  ml-[20rem] xl:pb-[13rem] pt-[2rem] xl:pt-[3rem] xl:pr-[0rem] xl:pl-[25.9rem]"
-          }
-          id="header"
-        >
-               <span>
+  return (
+    <div className="flex flex-col items-center pb-40 xl:w-[190rem] px-[.5rem] xl:px[0rem]  xl:h-[49rem]r ">
+      <span>
               <div
                 className="ellipse2"
                 
               ></div>
             </span>
-          <p
-            className={
-              "text-[3rem] xl:text-[4.8rem] font-['Inter'] xl:leading-[58.09px] xl:tracking-[0.01em]"
-            }
-          >
-            Skills
-          </p>
-          <div
-            className={
-              "flex flex-wrap font-[500] text-[#777777] text-[1.5rem] xl:text-[2.4rem] justify-between leading-[36px] "
-            }
-          >
-            <div className={"flex-col "}>
-            <a
-                target="_blank"
-                href="https://www.javascript.com/"
-              > 
-           
-              
-              <img
-                className={"xl:pt-[5.6rem]  xl:pl-[1rem]   "}
-                src={"./img/js-logo (1).png"}
-                link={""}
-                
-              />
-                </a>
-              
+      <h1 className="text-[3rem] xl:text-[3.8rem] font-['Inter'] xl:leading-[98.09px] xl:tracking-[0.01em]">Skills</h1>
+      <div className="flex flex-wrap flex-col gap-12 lg:flex-row">
+        {SkillsData.map((skill) => {
+          return (
+            <div className=" xl:pt-[5.6rem]  xl:pl-[1rem]">
             
-              <p className={"xl:mt-[1rem] font-['Inter'] "}>
-                JAVASCRIPT
+              <img className=" rounded-md bg-contain" src={skill.imgsrc} />
+
+              <p className="text-neutral-500  text-medium xl:text-[2rem] font-['Inter'] xl:leading-[98.09px] xl:tracking-[0.01em]">
+                {skill.name}
               </p>
-            </div>
-  
-            <div>
-              <a 
-              target="_blank"
-              href="https://react.dev/"
-            > 
-              <img className={"xl:pt-[5.6rem] "} src={"./img/Rectangle 35.png"} /> </a>
-              <p className={"xl:mt-[1rem] font-['Inter']"}>REACT</p>
-            </div>
-            <div>
-            <a 
-              target="_blank"
-              href="https://redux.js.org/"
-            > 
-              <img
-                className={"xl:pt-[5.6rem]  "}
-                src={"./img/redux.png"}
-                link={""}
-              />
-              </a>
-              <p className={"xl:mt-[1rem] font-['Inter'] "}>REDUX</p>
-            </div>
-            <div>
-              {" "}
-              <a 
-              target="_blank"
-              href="https://nodejs.org/en"
-            > 
-              <img
-                className={"xl:pt-[5.6rem] "}
-                src={"./img/node.png"}
-                link={""}
-              />
-              </a>
-              <p className={"xl:mt-[1rem] font-['Inter'] "}>NODE</p>
-            </div>
-            <div>
-              {" "}
-              <a 
-              target="_blank"
-              href="https://code.visualstudio.com/"
-            > 
-              <img
-                className={"xl:pt-[5.6rem]"}
-                src={"./img/vscode.png"}
-                link={""}
-              />
-              </a>
-          
-              <p className={"xl:mt-[1rem] font-['Inter'] "}>VS CODE</p>
-            </div>
-            <div>
-            <a 
-              target="_blank"
-              href="https://www.figma.com/"
-            > 
-              <img
-                className={"xl:pt-[5.6rem]"}
-                src={"./img/figma.png"}
-                link={""}
-              />
-              </a>
-              <p className={"xl:mt-[1rem] font-['Inter'] "}>FIGMA</p>
-            </div>
-            <span>
+              <span>
               <div
                 className="rectangle22"
                 
               ></div>
             </span>
-          </div>
-        </div>
+            </div>
+            
+          );
+        })}
+        
       </div>
-    );
-  }
+    </div>
+  );
+}

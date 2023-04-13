@@ -3,8 +3,10 @@ import React from "react";
 
 export default function Projects() {
   
+  
   return (
     <div
+    
       className={
         "flex pt-[2rem] xl:pt-[9.3rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[18.4rem] xl:pr-[18.3rem] flex-col"
       }
@@ -22,6 +24,7 @@ export default function Projects() {
         }
       >
         <div
+        
           className={
             " w-[95vw] xl:mb-[15rem] ml-[15rem] mb-[2rem] xl:w-[30vw] rounded-[1.2rem] bg-[#DDEEFE]"
           }
@@ -96,7 +99,7 @@ export default function Projects() {
           </div>
           <div className={"pb-[0rem] pt-[3.5rem] xl:pt-[0rem]"}>
             <div className="laptop1">
-            <img  src={"../img/pizza.png"} />
+            <img  src={"../../img/pizza.png"} />
             </div>
           </div>
         </div>{" "}
@@ -184,7 +187,7 @@ export default function Projects() {
           </div>
           <div className="pb-[0rem] pt-[3.5rem] xl:pt-[0rem]">
           <div className="laptop2">
-            <img  src={"../img/pizza.png"} />
+            <img  src={"../../img/pizza.png"} />
             </div>
           </div>
         </div>

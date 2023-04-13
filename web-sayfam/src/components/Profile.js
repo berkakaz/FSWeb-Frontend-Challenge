@@ -40,7 +40,7 @@ export default function Profile() {
                       "text-[1.8rem] font['Inter'] w-[44%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    Birth Date
+                    Birthdate
                   </p>
                   <p
                     className={
@@ -57,7 +57,7 @@ export default function Profile() {
                         "text-[1.8rem] font['Inter'] w-[44%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                       }
                     >
-                      Location
+                      Current Address
                     </p>
                     <p
                       className={
@@ -125,8 +125,7 @@ export default function Profile() {
                     "pt-[3.4rem] font-['Inter'] font-[400] text-[1.8rem]"
                   }
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-                  aut, odit laborum aliquam voluptatum nisi mollitia.{" "}
+                  I am a graduate of Piri Reis University's Marine Engineering. In order to make an important decision for my career, I am developing myself in the field of software with the support of Workintech.{" "}
                 </p>{" "}
                 <p
                   className={
@@ -134,8 +133,7 @@ export default function Profile() {
                   }
                 >
                   {" "}
-                  Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
-                  deserunt quam temporibus cumque magnam!
+                  On this page, I have developed a website using the training I received from Workintech.
                 </p>
               </div>
             </div>
