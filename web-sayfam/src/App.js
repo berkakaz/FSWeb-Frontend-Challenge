@@ -1,10 +1,10 @@
 import {  useEffect,  } from "react";
 import { ToastContainer,toast } from "react-toastify";
 
-import Header from "./components/Headers";
-import Skills from "./components/Skillss";
-import Profile from "./components/Profiles";
-import Projects from "./components/Projectss";
+import Header from "./components/Header";
+import Skills from "./components/Skills";
+import Profile from "./components/Profile";
+import Projects from "./components/Projects"
 
 
 import "./App.css";
@@ -15,7 +15,7 @@ function App() {
  
 
   useEffect ( ()=> {
-    toast(" 🚀 Projeme Hoş Geldin!", {
+    toast(" 🚀 Welcome to my project !", {
       position: "top-right",
 autoClose: 3000,
 hideProgressBar: false,

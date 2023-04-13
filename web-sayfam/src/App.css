@@ -42,7 +42,7 @@
   }
 }
 
-.pink {
+.rectangle18 {
   position:absolute;
   width: 217px;
   height: 59px;
@@ -120,7 +120,7 @@ body {
     font-size: 20px;
 }
 
-.laptop {
+.laptop1 {
   position: relative;
 width: 150%;
 height: 380px;
@@ -128,6 +128,16 @@ left: -25%;
 top: -100px;
 
 }
+
+.laptop2 {
+  position: relative;
+width: 150%;
+height: 380px;
+left: -25%;
+top: -70px;
+
+}
+
 
 
 

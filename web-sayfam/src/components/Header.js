@@ -13,7 +13,7 @@ export default function Header() {
      
         <span>
               <div
-                className="pink"
+                className="rectangle18"
                 
               ></div>
             </span>
