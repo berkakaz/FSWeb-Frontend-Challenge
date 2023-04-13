@@ -4,7 +4,7 @@ export default function Skills() {
    
         <div
           className={
-            " flex-wrap  ml-[20rem] xl:pb-[13rem] pt-[2rem] xl:pt-[8rem] xl:pr-[0rem] xl:pl-[25.9rem]"
+            " flex-wrap  ml-[20rem] xl:pb-[13rem] pt-[2rem] xl:pt-[3rem] xl:pr-[0rem] xl:pl-[25.9rem]"
           }
         >
                <span>

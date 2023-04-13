@@ -3,7 +3,7 @@ export default function Header() {
       <div
       
         className={
-          "flex flex-col-reverse px-[2rem] xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
+          "flex flex-col-reverse px-[2rem] mx-auto gap-10 xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
         }
       >
      
@@ -114,6 +114,7 @@ export default function Header() {
             }
             src="./img/IMG_3355.jpeg.jpg"
             alt="Image description"
+            
           />
         </div>
       </div>

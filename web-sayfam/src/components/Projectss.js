@@ -19,7 +19,7 @@ export default function Projects() {
         >
           <div
             className={
-              " w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem] bg-[#DDEEFE]"
+              " w-[95vw] xl:mb-[15rem] ml-[15rem] mb-[2rem] xl:w-[30vw] rounded-[1.2rem] bg-[#DDEEFE]"
             }
           >
             <p
@@ -96,10 +96,12 @@ export default function Projects() {
               </a>
             </div>
             <div className={"pb-[0rem] pt-[3.5rem] xl:pt-[0rem]"}>
-              <img src={"./img/pc-img.png"} />
+              <div className="laptop">
+              <img  src={"./img/pizza.png"} />
+              </div>
             </div>
           </div>{" "}
-          <div className={" w-[95vw] xl:w-[38vw] rounded-[1.2rem] bg-[#D9F6F1]"}>
+          <div className={"w-[95vw] xl:mb-[15rem] mb-[2rem] xl:w-[30vw] rounded-[1.2rem] bg-[#D9F6F1]"}>
             <p
               className={
                 "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
@@ -180,8 +182,10 @@ export default function Projects() {
                 Go to app 👈
               </a>
             </div>
+            <div className="pb-[0rem] pt-[3.5rem] xl:pt-[0rem]">
             <div className="laptop">
-              <img src={"./img/pc-img.png"} />
+              <img  src={"./img/pizza.png"} />
+              </div>
             </div>
           </div>
         </div>
