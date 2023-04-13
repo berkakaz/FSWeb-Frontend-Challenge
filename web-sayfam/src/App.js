@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import {  useEffect,  } from "react";
 import { ToastContainer,toast } from "react-toastify";
 
 import Header from "./components/Headers";
@@ -9,8 +9,6 @@ import Projects from "./components/Projectss";
 
 import "./App.css";
 import 'react-toastify/dist/ReactToastify.css';
-
-export const ThemeContext = createContext(null);
 
 
 function App() {
@@ -31,14 +29,8 @@ className: 'toast-message',
       })
   }, []);
 
-  const [theme, setTheme] = useState("dark");
-
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light" ));
-  };
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
-    <div className="App" id={theme}>
+    <div className="App">
       <Header />
       <Skills />
       <Profile />
@@ -46,7 +38,7 @@ className: 'toast-message',
       <ToastContainer />
     
     </div>
-    </ThemeContext.Provider>
+
   );
 }
 

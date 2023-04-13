@@ -166,7 +166,8 @@ export default function Projects() {
               }
             >
               <a
-                href=""
+                target="_blank"
+                href="https://github.com/berkakaz/fsweb-s7-challenge-pizza"
                 className={
                   "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
                 }
@@ -174,7 +175,8 @@ export default function Projects() {
                 View on Github
               </a>
               <a
-                href=""
+                target="_blank"
+                href="https://github.com/berkakaz/fsweb-s7-challenge-pizza"
                 className={
                   "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
                 }
