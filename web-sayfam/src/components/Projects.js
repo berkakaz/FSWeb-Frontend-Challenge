@@ -37,7 +37,7 @@ export default function Projects() {
             Pizza Project 
           </p>
           <p className=" pl-[2rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"> 
-          The web page I designed for software developers who want to order pizza, also serves as my WorkinTech 8th-week challenge project.
+          The web page I designed for software developers who want to order pizza.You will create a pizza order form where the user can select their desired toppings,also serves as my WorkinTech 8th-week challenge project.
           </p>
           <div
             className={"flex pl-[2rem] xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"}
@@ -99,7 +99,7 @@ export default function Projects() {
           </div>
           <div className={"pb-[0rem] pt-[3.5rem] xl:pt-[0rem]"}>
             <div className="laptop1">
-            <img  src={"../../img/pizza.png"} />
+            <img  src={"../../img2/pizza.png"} />
             </div>
           </div>
         </div>{" "}
@@ -109,14 +109,14 @@ export default function Projects() {
               "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
             }
           >
-            Are you bored?
+            Reducer Calculator
           </p>
           <p
             className={
               "pl-[2rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
             }
           >
-            Web page designed for software developers who want to order pizza
+          I have created a simple calculator application that can add, multiply, subtract, and divide numbers in any order, and also has the ability to store in memory and include callback features.
           </p>
           <div
             className={
@@ -167,11 +167,12 @@ export default function Projects() {
             }
           >
             <a
-              target="_blank"
-              href="https://github.com/berkakaz/fsweb-s7-challenge-pizza"
+              
               className={
                 "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
               }
+              target="_blank"
+              href="https://github.com/berkakaz/fsweb-s10g1-reducer-calculator"
             >
               View on Github
             </a>
@@ -187,7 +188,7 @@ export default function Projects() {
           </div>
           <div className="pb-[0rem] pt-[3.5rem] xl:pt-[0rem]">
           <div className="laptop2">
-            <img  src={"../../img/pizza.png"} />
+            <img  src={"../../img2/hesap.png"} />
             </div>
           </div>
         </div>

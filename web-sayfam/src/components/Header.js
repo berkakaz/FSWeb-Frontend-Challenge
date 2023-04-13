@@ -118,7 +118,7 @@ export default function Header() {
             className={
               " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
             }
-            src="../../img/IMG_3355.jpeg.jpg"
+            src="../../img2/IMG_3355.jpeg.jpg"
             alt="Image description"
             
           />
