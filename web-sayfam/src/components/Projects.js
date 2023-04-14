@@ -90,7 +90,7 @@ export default function Projects() {
             </a>
             <a
 
-              href="https://github.com/berkakaz/fsweb-s7-challenge-pizza"
+              href="https://berkakaz-pizza.vercel.app/"
               target="_blank"
 
             ><p className={
@@ -180,7 +180,7 @@ export default function Projects() {
               </p>
             </a>
             <a
-              href="https://github.com/berkakaz/fsweb-s7-challenge-pizza"
+              href="https://berkakaz-calculator.vercel.app/"
               target="_blank"
             ><p className={
               "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "} >
