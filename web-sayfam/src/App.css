@@ -122,19 +122,21 @@ body {
 
 .laptop1 {
   position: relative;
-width: 150%;
+width: 100%;
 height: 380px;
-left: -25%;
-top: -100px;
+left: 0%;
+top: 100px;
+background-size: contain;
 
 }
 
 .laptop2 {
   position: relative;
-width: 150%;
+width: 100%;
 height: 380px;
-left: -25%;
-top: -90px;
+left: 0%;
+top: 100px;
+background-size: contain;
 
 }
 
